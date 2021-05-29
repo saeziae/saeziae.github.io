@@ -239,7 +239,10 @@
                 <h1>你已经答题完毕</h1>
             </div>
             <div class="card-body d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg" onclick="result()">查看结果</button>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">你的昵称是</span>
+                    <input id="name" type="text" class="form-control" placeholder="输入你的昵称" aria-label="Username" aria-describedby="basic-addon1">
+                </div><button type="button" class="btn btn-primary btn-lg" onclick="result()">查看结果</button>
             </div>
             <div class="card-footer">
                 <button type="button" class="btn btn-outline-secondary" onclick="back(11)">上一题</button>
@@ -249,32 +252,32 @@
         <div class="card border-primary" id="90" style="display: none;">
             <div class="card-header">结果揭晓</div>
             <div class="card-body text-primary">
-                <h5 class="card-title">你的分数是<span id="score90"></span>分</h5>
+                <h5 class="card-title" id="score90"></h5>
                 <p class="card-text">就差那么一丁点儿，太可惜了！</p>
             </div>
         </div>
         <div class="card border-success" id="100" style="display: none;">
             <div class="card-header">结果揭晓</div>
             <div class="card-body text-success">
-                <h5 class="card-title">你的分数<span id="score100"></span>分</h5>
+                <h5 class="card-title" id="score100"></h5>
                 <p class="card-text">倷比老苏州还地道！</p>
             </div>
         </div>
         <div class="card border-danger" id="30" style="display: none;">
             <div class="card-header">结果揭晓</div>
             <div class="card-body text-danger">
-                <h5 class="card-title">你的分数是<span id="score30"></span>分</h5>
+                <h5 class="card-title" id="score30"></h5>
                 <p class="card-text">你莫不是个假苏州人吧！</p>
             </div>
         </div>
         <div class="card border-warning" id="60" style="display: none;">
             <div class="card-header">结果揭晓</div>
             <div class="card-body">
-                <h5 class="card-title">你的分数是<span id="score60"></span>分</h5>
+                <h5 class="card-title" id="score60"></h5>
                 <p class="card-text">同志还须努力！</p>
             </div>
         </div>
-        <div class="footer"><span class="badge bg-secondary"> Developed by <a href="http://github.com/saeziae">山前</a> </span></div>
+        <div class="footer"><span class="badge bg-secondary"> Developed by <a class="text-reset" href="http://github.com/saeziae">山前</a> </span></div>
     </div>
     <script>
         var ans = new Array();
@@ -304,6 +307,10 @@
         }
 
         function result() {
+            var name = document.getElementById("name").value;
+            if (name != "") {
+                name = name + "，";
+            }
             var r = "30";
             var total = sum(ans);
             if (total <= 30) {
@@ -316,7 +323,7 @@
                 r = "100";
             }
             document.getElementById("q11").style.display = 'none';
-            document.getElementById("score" + r).innerText = total;
+            document.getElementById("score" + r).innerText = name + "你的分数是" + total + "分";
             document.getElementById(r).style.display = 'block';
             return;
         }
