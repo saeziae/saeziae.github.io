@@ -1,0 +1,71 @@
+ 
+.moji {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em;
+}
+
+/*flag*/
+.moji-cn {
+    background-image: url("./moji/cn.svg")
+}
+.moji-uk {
+    background-image: url("./moji/uk.svg")
+}
+.moji-es {
+    background-image: url("./moji/es.svg")
+}
+.moji-ar {
+    background-image: url("./moji/ar.svg")
+}
+.moji-trans {
+    background-image: url("./moji/trans.svg")
+}
+/*social*/
+.moji-github {
+    background-image: url("./moji/github.svg")
+}
+.moji-mail {
+    background-image: url("./moji/mail.svg")
+}
+.moji-twitter {
+    background-image: url("./moji/twitter.svg")
+}
+.moji-telegram {
+    background-image: url("./moji/telegram.svg")
+}
+.moji-bilibili {
+    background-image: url("./moji/bilibili.svg")
+}
+.moji-youtube {
+    background-image: url("./moji/youtube.svg")
+}
+.moji-twitch {
+    background-image: url("./moji/twitch.svg")
+}
+/*game*/
+.moji-maimai{
+    background-image: url("./moji/maimai.svg")
+}
+/*system*/
+.moji-ubuntu {
+    background-image: url("./moji/ubuntu.svg")
+}
+.moji-manjaro {
+    background-image: url("./moji/manjaro.svg")
+}
+.moji-archlinux {
+    background-image: url("./moji/archlinux.svg")
+}
+/*language*/
+.moji-python {
+    background-image: url("./moji/python.svg")
+}
+.moji-php {
+    background-image: url("./moji/php.svg")
+}
