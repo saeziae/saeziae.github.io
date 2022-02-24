@@ -26,6 +26,18 @@
 .moji-trans {
     background-image: url("./moji/trans.svg")
 }
+.moji-eo {
+    background-image: url("./moji/eo.svg")
+}
+.moji-lat {
+    background-image: url("./moji/lat.svg")
+}
+.moji-th{
+    background-image: url("./moji/th.svg")
+}
+.moji-su{
+    background-image: url("./moji/su.svg")
+}
 /*social*/
 .moji-github {
     background-image: url("./moji/github.svg")

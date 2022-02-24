@@ -1,121 +1,220 @@
 <!DOCTYPE html>
 <html class="h-100" lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>山前的朋友们</title>
+    <link href="assets/moji.css" rel="stylesheet" />
+    <link href="assets/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>山前的朋友们</title>
-  <link href="assets/moji.css" rel="stylesheet" />
-  <link href="assets/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    .card {
-      height: 200px;
-      width: 100%;
-      margin-bottom: 10px;
-    }
+      .card-img-top {
+        height: 100px;
+      }
 
-    .card-img-top {
-      height: 100px;
-    }
+      .card-body {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        height: 100px;
+      }
 
-    .card-body {
-      margin: 0 0 0 0;
-      padding: 0 0 0 0;
-      height: 100px;
-    }
+      .card-body p {
+        margin-left: 160px;
+      }
 
-    .card-body p {
-      margin-left: 160px;
-    }
+      .avat {
+        position: relative;
+      }
 
-    .avat {
-      position: relative;
-    }
+      .avat img {
+        height: 100px;
+        width: 100x;
+        position: absolute;
+        top: -50px;
+        left: 30px;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+      }
 
-    .avat img {
-      height: 100px;
-      width: 100x;
-      position: absolute;
-      top: -50px;
-      left: 30px;
-      border-radius: 50%;
-      border: 1px solid #ddd;
-    }
+      .avat span {
+        position: absolute;
+        top: -40px;
+        left: 160px;
+        color: black;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+          1px 1px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white,
+          2px 2px 0 white, -1px -2px 0 white, 1px -2px 0 white, -1px 2px 0 white,
+          1px 2px 0 white, -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white,
+          2px 1px 0 white, -1px -0px 0 white, 1px -0px 0 white, -1px 0px 0 white,
+          1px 0px 0 white, -0px -1px 0 white, 0px -1px 0 white, -0px 1px 0 white,
+          0px 1px 0 white, -0px -2px 0 white, 0px -2px 0 white, -0px 2px 0 white,
+          0px 2px 0 white, -2px -0px 0 white, 2px -0px 0 white, -2px 0px 0 white,
+          2px 0px 0 white;
+        text-decoration: none;
+        font-size: 1.5em;
+      }
+    </style>
+  </head>
 
-    .avat span {
-      position: absolute;
-      top: -40px;
-      left: 160px;
-      color: black;
-      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white,
-        -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white,
-        -1px -2px 0 white, 1px -2px 0 white, -1px 2px 0 white, 1px 2px 0 white,
-        -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white;
-      text-decoration: none;
-      font-size: 1.5em;
-    }
-  </style>
-</head>
-
-<body class="d-flex flex-column h-100">
-  <header class="header">
-    <div class="container navbar d-flex">
-      <nav class="justify-content-start" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="index.html"><i class="moji moji-uk"></i>English</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="zh.html"><i class="moji moji-cn"></i>中文</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="es.html"><i class="moji moji-es"></i>Español</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="ar.html"><i class="moji moji-ar"></i>العربية</a>
-          </li>
-        </ol>
-      </nav>
-    </div>
-  </header>
-  <main class="flex-shrink-0">
-    <div class="container-fluid" style="max-width: 540px">
-      <div class="card">
-        <img src="assets/amigos/clansty.banner.jpg" class="card-img-top" />
-        <div class="card-body">
-          <div class="avat">
-            <a href="https://clansty.com/">
-              <img src="assets/amigos/clansty.png" />
-              <span>凌丸</span>
-            </a>
-          </div>
-          <p class="card-text">是0w！</p>
-        </div>
+  <body class="d-flex flex-column h-100">
+    <header class="header">
+      <div class="container navbar d-flex">
+        <nav class="justify-content-start" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html"><i class="moji moji-uk"></i>English</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="zh.html"><i class="moji moji-cn"></i>中文</a>
+              &nbsp;
+              <a href="ug.html">ئۇيغۇرچە</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="es.html"><i class="moji moji-es"></i>Español</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="ar.html"><i class="moji moji-ar"></i>العربية</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="eo.html"><i class="moji moji-eo"></i>Esperanto</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="lat.html"><i class="moji moji-lat"></i>Lingua Latina</a>
+            </li>
+          </ol>
+        </nav>
       </div>
-      <!--分割线，没用的-->
-      <div class="card">
-        <img src="assets/amigos/menci.banner.jpg" class="card-img-top" />
-        <div class="card-body">
-          <div class="avat">
-            <a href="https://blog.men.ci/">
-              <img src="assets/amigos/menci.png" />
-              <span>Menci</span>
-            </a>
+    </header>
+    <main class="flex-shrink-0">
+      <div class="container-fluid" style="max-width: 540px">
+        <h1>山前的好朋友们</h1>
+        <div class="card">
+          <img src="assets/amigos/clansty.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://clansty.com/">
+                <img src="assets/amigos/clansty.png" />
+                <span>凌丸</span>
+              </a>
+            </div>
+            <p class="card-text">是0w！</p>
           </div>
-          <p class="card-text">萌次好吃（?）</p>
         </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/menci.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://blog.men.ci/">
+                <img src="assets/amigos/menci.png" />
+                <span>Menci</span>
+              </a>
+            </div>
+            <p class="card-text">萌次好吃（?）</p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/moozae.banner.png" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://moozae.cn/">
+                <img src="assets/amigos/moozae.jpg" />
+                <span>沐子</span>
+              </a>
+            </div>
+            <p class="card-text">沐子：沐子大概不好吃？</p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/dkexluna.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://dkexluna.github.io/">
+                <img src="assets/amigos/dkexluna.jpg" />
+                <span>小林日紗子</span>
+              </a>
+            </div>
+            <p class="card-text">
+              日紗，我的日紗……软软的……小小的……嘿嘿……我好喜欢你啊，日紗子，呜呜，你带我走吧……
+            </p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/leoheart.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://leohearts.com/">
+                <img src="assets/amigos/leoheart.jpeg" />
+                <span>芋头</span>
+              </a>
+            </div>
+            <p class="card-text">
+              <del>手捣芋泥！</del>
+            </p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/gogo.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://blog.gogo.moe/">
+                <img src="assets/amigos/gogo.png" />
+                <span>Gogo</span>
+              </a>
+            </div>
+            <p class="card-text">
+              《Gogo变成猫猫了》
+            </p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+        <div class="card">
+          <img src="assets/amigos/ayaka.banner.jpg" class="card-img-top" />
+          <div class="card-body">
+            <div class="avat">
+              <a href="https://ayaka.shn.hk/">
+                <img src="assets/amigos/ayaka.jpg" />
+                <span>绫香</span>
+              </a>
+            </div>
+            <p class="card-text">
+              是可爱的绫香小姐！
+            </p>
+          </div>
+        </div>
+        <!--分割线，没用的-->
+
+        <p>
+          <b>如何添加友链？</b><br />
+          向
+          <a href="mailto:i@estela.cn"
+            ><img
+              src="https://img.shields.io/badge/email-i@estela.cn-blue.svg?style=flat-square"
+          /></a>
+          发送邮件，或通过
+          <a href="https://twitter.com/saeziae"
+            ><img
+              src="https://img.shields.io/badge/Twitter-@saeziae-blue?style=flat-square&logo=twitter"
+          /></a>
+          和 Telegram 私信我。内容包括 网址、昵称、头像、Banner、自己绍介。
+        </p>
       </div>
-      <!--分割线，没用的-->
-
-    </div>
-    </div>
-  </main>
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-      <span class="text-muted"> &copy;<span id="year"></span> Estela </span>
-    </div>
-  </footer>
-  <script src="assets/bootstrap.bundle.min.js"></script>
-</body>
-
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted"> &copy;<span id="year"></span> Estela </span>
+      </div>
+    </footer>
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <audio src="assets/mlover.mp3" autoplay></audio>
+  </body>
 </html>
