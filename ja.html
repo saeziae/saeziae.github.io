@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html class="h-100" lang="ru">
+<html class="h-100" lang="jp">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Домашняя страница Предгорка</title>
+    <title>Homepage of Estela (Promontana)</title>
     <link href="assets/moji.css" rel="stylesheet" />
     <link href="assets/bootstrap.min.css" rel="stylesheet" />
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP");
+      main {
+        font-family: "Noto Sans JP", var(--bs-font-sans-serif);
+      }
       .card img {
         max-width: 100%;
       }
@@ -17,8 +21,8 @@
       <div class="container navbar d-flex">
         <nav class="justify-content-start" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="index.html"><i class="moji moji-uk"></i>English</a>
+            <li class="breadcrumb-item active">
+              <i class="moji moji-uk"></i>English
             </li>
             <li class="breadcrumb-item">
               <a href="zh.html"><i class="moji moji-cn"></i>中文</a>
@@ -33,8 +37,8 @@
             <li class="breadcrumb-item">
               <a href="ar.html"><i class="moji moji-ar"></i>العربية</a>
             </li>
-            <li class="breadcrumb-item active">
-              <i class="moji moji-su"></i>Русский
+            <li class="breadcrumb-item">
+              <a href="ru.html"><i class="moji moji-su"></i>Русский</a>
             </li>
             <li class="breadcrumb-item">
               <a href="uk.html">український</a>
@@ -45,8 +49,8 @@
             <li class="breadcrumb-item">
               <a href="lat.html"><i class="moji moji-lat"></i>Lingua Latina</a>
             </li>
-            <li class="breadcrumb-item">
-              <a href="ja.html">日本語</a>
+            <li class="breadcrumb-item active">
+              日本語
             </li>
           </ol>
         </nav>
@@ -54,7 +58,6 @@
     </header>
     <main class="flex-shrink-0">
       <div class="container d-grid gap-3">
-        <div><h1>🇺🇦Слава людям свободи🇺🇦</h1></div>
         <div class="container-fluid d-flex justify-content-center">
           <div class="card" style="position: relative; margin-top: 80px">
             <img
@@ -72,21 +75,22 @@
             <span
               class="badge rounded-pill bg-secondary border-3"
               style="position: absolute; left: 105px; top: -25px"
-              >😔 Депрессия</span
+              >😔 憂鬱</span
             >
             <div class="card-body">
-              <h2 class="card-title" style="margin-left: 130px">Предгорка</h2>
-              <strong>С Интернационалом, воспрянет род людской!</strong>
+              <h2 class="card-title" style="margin-left: 130px">
+                <ruby>山<rt>さん</rt>前<rt>ぜん</rt> </ruby>
+              </h2>
               <table>
                 <tr>
                   <td>
                     <a href="https://github.com/saeziae"
-                      ><i class="moji moji-github"></i>GitHub saeziae</a
+                      ><i class="moji moji-github"></i>ギットハブ saeziae</a
                     >
                   </td>
                   <td>
                     <a href="https://twitter.com/saeziae"
-                      ><i class="moji moji-twitter"></i>Твиттер @saeziae</a
+                      ><i class="moji moji-twitter"></i>ツイッター @saeziae</a
                     >
                   </td>
                 </tr>
@@ -98,46 +102,49 @@
                   </td>
                   <td>
                     <a href="https://t.me/esteladaily"
-                      ><i class="moji moji-telegram"></i>Группа Телеграмма</a
+                      ><i class="moji moji-telegram"></i>テレグラム・グルポ</a
                     >
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <a href="https://space.bilibili.com/173947605"
-                      ><i class="moji moji-bilibili"></i>Билибили</a
+                      ><i class="moji moji-bilibili"></i>ビリビリ</a
                     >
                   </td>
                   <td>
                     <a
                       href="https://www.youtube.com/channel/UCnqO6MvMqQ9pXKcwjp_gLBQ"
-                      ><i class="moji moji-youtube"></i>Ютубе</a
+                      ><i class="moji moji-youtube"></i>ユーチューブ</a
                     >
                   </td>
                 </tr>
               </table>
-              <p>Привет, товарищ! 👋🏻 Я Предгорка</p>
+              <p>こんにちはー 👋🏻 あたしは山前やねん。</p>
               <p>
                 <i class="moji moji-trans" role="img" aria-label="🏳️‍⚧️"></i>
-                Гордость трансгендера. Участник
-                <a href="https://mtf.wiki/">MtF-Wiki</a>.
+                トランスジェンダー・プライド。
+                <a href="https://mtf.wiki/">MtF-Wiki</a>の成員
               </p>
               <p>
-                🍱 "Гурман".Носитель
-                <a href="https://en.wikipedia.org/wiki/Wu_Chinese">Уского</a>
-                языка.
+                スカートが大好き 🍱 "グルメ"
+                <a href="https://en.wikipedia.org/wiki/Wu_Chinese"
+                  >呉語</a
+                >の母語話者
               </p>
-              <p>👩🏻‍🎓 Я изучаю испанский язык в университете.</p>
-              <p>📷 Фотография. Игрок в ритм-игры: maimai и Sound Voltex.</p>
-              <p>✈️ Я люблю путешествовать! Я побывала во многих странах.</p>
-              <p>👀 Я интересуюсь лингвистикой, NLP и другими вещами.</p>
+              <p>👩🏻‍🎓 大学でスペイン語を専攻しとります。 </p>
+              <p>
+                📷 写真。音ゲーマー：maimai と Sound Voltex.
+              </p>
+              <p>✈️ 旅行がめっちゃ好きやねん！ようけの国に旅行してん。 </p>
+              <p>👀 言語学、NLP、その他に興味があんねん。 </p>
               <p>
                 ⌨️ <i class="moji moji-python"></i>Python<br />
                 <del
-                  ><i class="moji moji-php"></i>PHP - лучший язык в в мире!</del
+                  ><i class="moji moji-php"></i>ＰＨＰはセカイイチ！</del
                 >
               </p>
-              <p>пользователь <i class="moji moji-archlinux"></i>ArchLinux.</p>
+              <p><i class="moji moji-archlinux"></i>アーチ・リナックスのユーザー。</p>
             </div>
           </div>
         </div>
@@ -159,8 +166,7 @@
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
         <span class="text-muted">
-          &copy;<span id="year"></span> Предгорка
-          <a href="amigos.html">Товарищи</a>
+          &copy;<span id="year"></span> 山前
         </span>
       </div>
     </footer>
