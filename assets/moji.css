@@ -9,6 +9,7 @@
     background-position: center center;
     background-size: 1em 1em;
 }
+
 /*flag*/
 .moji-cn {
     background-image: url("./moji/cn.svg")
@@ -79,4 +80,7 @@
 }
 .moji-php {
     background-image: url("./moji/php.svg")
+}
+.moji-eth {
+    background-image: url("./moji/eth.svg")
 }
