@@ -60,10 +60,6 @@
 .moji-twitch {
     background-image: url("./moji/twitch.svg")
 }
-/*game*/
-.moji-maimai{
-    background-image: url("./moji/maimai.svg")
-}
 /*system*/
 .moji-ubuntu {
     background-image: url("./moji/ubuntu.svg")
@@ -81,6 +77,23 @@
 .moji-php {
     background-image: url("./moji/php.svg")
 }
+/*other*/
 .moji-eth {
     background-image: url("./moji/eth.svg")
+}
+/*ideas*/
+.moji-communism {
+    background-image: url("./moji/communism.svg")
+}
+.moji-feminism {
+    background-image: url("./moji/feminism.svg")
+}
+.moji-fist {
+    background-image: url("./moji/fist.svg")
+}
+.moji-anarchism {
+    background-image: url("./moji/anarchism.svg")
+}
+.moji-peace {
+    background-image: url("./moji/peace.svg")
 }

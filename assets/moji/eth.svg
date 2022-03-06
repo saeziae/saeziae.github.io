@@ -1,39 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   role="img"
-   viewBox="0 0 24 24"
-   version="1.1"
-   id="svg6"
-   sodipodi:docname="eth.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs10" />
-  <sodipodi:namedview
-     id="namedview8"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="26.25"
-     inkscape:cx="12.019048"
-     inkscape:cy="12"
-     inkscape:window-width="1920"
-     inkscape:window-height="1007"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
-  <title
-     id="title2">Ethereum</title>
-  <path
-     d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"
-     id="path4"
-     style="fill:#3c3c3d;fill-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg role="img" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Ethereum</title>
+ <path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z" fill="#3c3c3d"/>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Ethereum</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
 </svg>
