@@ -12,10 +12,18 @@
         src: url(assets/NSTahlom.otf);
       }
       body {
-        font-family: Noto Sans, NSTahlom, sans-serif;
+        font-family: Noto Sans, NSTahlom, var(--bs-font-sans-serif);
       }
       .card img {
         max-width: 100%;
+      }
+      @font-face {
+        font-family: CL;
+        src: url(assets/cl.woff2);
+        font-display: swap;
+      }
+      footer {
+        font-family: CL, var(--bs-font-sans-serif);
       }
     </style>
   </head>
@@ -83,7 +91,7 @@
             <div class="card-body">
               <h2 class="card-title" style="margin-left: 130px">
                 ᩑᩈ᩠ᨲᩮᩃᩣ (ᩉ᩠ᨶ᩶ᩣᨣᩬᨦ)
-                            </h2>
+              </h2>
               <p>
                 <i class="moji moji-trans"></i>
                 <i class="moji moji-feminism"></i>
