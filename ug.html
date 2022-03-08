@@ -7,10 +7,16 @@
     <link href="assets/moji.css" rel="stylesheet" />
     <link href="assets/bootstrap.rtl.min.css" rel="stylesheet" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Sans&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Amiri&IBM+Plex+Sans+Arabic&family=Noto+Sans&display=swap");
       main {
+        font-family: "IBM Plex Sans Arabic", "Noto Sans Arabic", "Noto Sans",
+          var(--bs-font-sans-serif);
+      }
+      strong {
         font-family: "Amiri", "Noto Sans Arabic", "Noto Sans",
           var(--bs-font-sans-serif);
+          font-weight: normal;
+          font-size: 1.2rem;
       }
       .sociales a {
         text-decoration: none;
@@ -106,7 +112,10 @@
                 <i class="moji moji-peace"></i>
                 <i class="moji moji-fist"></i>
               </p>
-              <p>بىزنىڭ ھايات بولۇشىمىز يامان غەرەزگە قارشى ئەڭ چوڭ كۈرەش!</p>
+              <strong
+                >بىزنىڭ ھايات بولۇشىمىز يامان غەرەزگە قارشى ئەڭ چوڭ
+                كۈرەش!</strong
+              >
 
               <table class="sociales">
                 <tr>
