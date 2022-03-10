@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html class="h-100" lang="ca">
+<html class="h-100" lang="ko-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pagina de Estela (Promontana)</title>
+    <title>Homepage of Estela (Promontana)</title>
     <link href="assets/moji.css" rel="stylesheet" />
     <link href="assets/bootstrap.min.css" rel="stylesheet" />
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR&family=Noto+Sans+SC&display=swap");
+      main {
+        font-family: "Noto Sans SC", "Noto Sans KR", "Noto Sans",
+          var(--bs-font-sans-serif);
+      }
       .card img {
         max-width: 100%;
       }
@@ -33,11 +38,11 @@
               <a href="ug.html">ئۇيغۇرچە</a>
               <a href="bo.html">བོད་སྐད་</a>
               <a href="tai.html">Tai</a>
-              <a href="ko.html">조선어</a>
+              조선어
             </li>
-            <li class="breadcrumb-item active">
-              <i class="moji moji-es"></i><a href="es.html">Castellano</a>
-              Català
+            <li class="breadcrumb-item">
+              <a href="es.html"><i class="moji moji-es"></i>Español</a>
+              <a href="cat.html">Català</a>
             </li>
             <li class="breadcrumb-item">
               <a href="ar.html"><i class="moji moji-ar"></i>العربية</a>
@@ -80,11 +85,11 @@
             <span
               class="badge rounded-pill bg-secondary border-3"
               style="position: absolute; left: 105px; top: -25px"
-              >😔 Depresió</span
+              >😔 抑郁</span
             >
             <div class="card-body">
               <h2 class="card-title" style="margin-left: 130px">
-                Estela (Promontana)
+                <ruby>山<rt>산</rt>前<rt>전</rt></ruby>
               </h2>
               <p>
                 <i class="moji moji-trans"></i>
@@ -102,7 +107,7 @@
                   </td>
                   <td>
                     <a href="https://twitter.com/saeziae"
-                      ><i class="moji moji-twitter"></i>Twitter @saeziae</a
+                      ><i class="moji moji-twitter"></i>트위터 @saeziae</a
                     >
                   </td>
                 </tr>
@@ -114,43 +119,43 @@
                   </td>
                   <td>
                     <a href="https://t.me/esteladaily"
-                      ><i class="moji moji-telegram"></i>Grup de Telegram</a
+                      ><i class="moji moji-telegram"></i>텔레그램</a
                     >
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <a href="https://space.bilibili.com/173947605"
-                      ><i class="moji moji-bilibili"></i>Bilibili</a
+                      ><i class="moji moji-bilibili"></i>삐리삐리</a
                     >
                   </td>
                   <td>
                     <a
                       href="https://www.youtube.com/channel/UCnqO6MvMqQ9pXKcwjp_gLBQ"
-                      ><i class="moji moji-youtube"></i>YouTube</a
+                      ><i class="moji moji-youtube"></i>유튜브</a
                     >
                   </td>
                 </tr>
               </table>
-              <p>Hola! 👋🏻 Aquí està Estela.</p>
+              <p>안녕 👋🏻 나는山前예요。</p>
               <p>
                 <i class="moji moji-trans" role="img" aria-label="🏳️‍⚧️"></i>
-                Orgullosa de ser trans. Contribuïdora de
-                <a href="https://mtf.wiki/">MtF-Wiki</a>.
+                跨性别을자랑스럽다。
+                <a href="https://mtf.wiki/">MtF-Wiki</a>의成员。
               </p>
-              <p>M'agrada faldilla taulada(JKs). 🍱 "Gourmet".</p>
               <p>
-                👩🏻‍🎓 Estic estudiant Castellà cas com a especialitat a la
-                universitat.
+                스커트을좋아해요 🍱 “美食”
+                <a href="https://zh.wikipedia.org/wiki/吴语">吴语</a>의原语民。
               </p>
-              <p>📷 Fotògrafa. Videojocs de ritme: maimai i Sound Voltex.</p>
-              <p>✈️ M'encanta viatjar. He viatjat a diversos continents.</p>
-              <p>👀 M'interessen lingüística, NLP, i altres coses.</p>
+              <p>👩🏻‍🎓 大学에서서반아어를배우다。</p>
+              <p>📷 写真。音游游戏者：maimai 와 Sound Voltex.</p>
+              <p>✈️ 나는旅行을몹시좋아해요！나는많은国家를旅行했다。</p>
+              <p>👀 言语学，NLP등에兴味이있다。</p>
               <p>
-                ⌨️ <i class="moji moji-python"></i>Python
-                <i class="moji moji-php"></i>PHP
+                ⌨️ <i class="moji moji-python"></i>Python<br />
+                <del><i class="moji moji-php"></i>PHP가最高！</del>
               </p>
-              <p>Usuària de <i class="moji moji-archlinux"></i>ArchLinux.</p>
+              <p><i class="moji moji-archlinux"></i>아치리눅스의使用者。</p>
             </div>
           </div>
         </div>
@@ -171,7 +176,7 @@
     </main>
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
-        <span class="text-muted">&#127279;<span id="year"></span> Estela </span>
+        <span class="text-muted">&#127279;<span id="year"></span> 山前 </span>
       </div>
     </footer>
     <script src="assets/bootstrap.bundle.min.js"></script>
