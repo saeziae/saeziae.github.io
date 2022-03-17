@@ -7,10 +7,15 @@
     <link href="assets/moji.css" rel="stylesheet" />
     <link href="assets/bootstrap.min.css" rel="stylesheet" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR&family=Noto+Sans+SC&display=swap");
+      @font-face {
+        font-family: CheonRiMa;
+        src: url(assets/CheonRiMa.woff2);
+        unicode-range: U+1100 —11FF;
+        font-display: swap;
+      }
       main {
-        font-family: "Noto Sans SC", "Noto Sans KR", "Noto Sans",
-          var(--bs-font-sans-serif);
+        font-family: CheonRiMa, hiragino sans gb, 微软雅黑, microsoft yahei,
+          华文细黑, stheiti, SimHei, var(--bs-font-sans-serif);
       }
       .card img {
         max-width: 100%;
@@ -85,7 +90,7 @@
             <span
               class="badge rounded-pill bg-secondary border-3"
               style="position: absolute; left: 105px; top: -25px"
-              >😔 抑郁</span
+              >😔 억울</span
             >
             <div class="card-body">
               <h2 class="card-title" style="margin-left: 130px">
@@ -137,25 +142,26 @@
                   </td>
                 </tr>
               </table>
-              <p>안녕 👋🏻 나는山前예요。</p>
+              <p>안녕 👋🏻 나는 산전 예요.</p>
               <p>
-                <i class="moji moji-trans" role="img" aria-label="🏳️‍⚧️"></i>
-                跨性别을자랑스럽다。
-                <a href="https://mtf.wiki/">MtF-Wiki</a>의成员。
+                <i class="moji moji-trans" role="img" aria-label="🏳️‍⚧️"></i
+                >과성별(跨性别) 을 자랑 스럽다.
+                <a href="https://mtf.wiki/">MtF-Wiki</a>의성원.
               </p>
               <p>
-                스커트을좋아해요 🍱 “美食”
-                <a href="https://zh.wikipedia.org/wiki/吴语">吴语</a>의原语民。
+                스커트을 좋아해요 🍱 “미식”
+                <a href="https://zh.wikipedia.org/wiki/吴语">우어(吴语)</a>의
+                원어민.
               </p>
-              <p>👩🏻‍🎓 大学에서서반아어를배우다。</p>
-              <p>📷 写真。音游游戏者：maimai 와 Sound Voltex.</p>
-              <p>✈️ 나는旅行을몹시좋아해요！나는많은国家를旅行했다。</p>
-              <p>👀 言语学，NLP등에兴味이있다。</p>
+              <p>👩🏻‍🎓 대학에 서서반아어를 배우다.</p>
+              <p>📷 사진. 음유(音游) 유희자: maimai 와 Sound Voltex.</p>
+              <p>✈️ 려행을 몹시 좋아해요! 나는 많은 국가를 려행했다.</p>
+              <p>👀 언어학, NLP등에 흥미이있다.</p>
               <p>
                 ⌨️ <i class="moji moji-python"></i>Python<br />
-                <del><i class="moji moji-php"></i>PHP가最高！</del>
+                <del><i class="moji moji-php"></i>PHP가 최고!</del>
               </p>
-              <p><i class="moji moji-archlinux"></i>아치리눅스의使用者。</p>
+              <p><i class="moji moji-archlinux"></i>아치리눅스의 사용자.</p>
             </div>
           </div>
         </div>
@@ -176,7 +182,7 @@
     </main>
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
-        <span class="text-muted">&#127279;<span id="year"></span> 山前 </span>
+        <span class="text-muted">&#127279;<span id="year"></span> 산전 </span>
       </div>
     </footer>
     <script src="assets/bootstrap.bundle.min.js"></script>
