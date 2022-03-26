@@ -77,9 +77,15 @@
 .moji-php {
     background-image: url("./moji/php.svg")
 }
-/*other*/
+/*money*/
 .moji-eth {
     background-image: url("./moji/eth.svg")
+}
+.moji-bch {
+    background-image: url("./moji/bch.svg")
+}
+.moji-xmr {
+    background-image: url("./moji/xmr.svg")
 }
 /*ideas*/
 .moji-communism {
