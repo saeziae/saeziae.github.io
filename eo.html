@@ -161,8 +161,8 @@
           <div class="card">
             <div class="card-header">Buy me a coffee</div>
             <div class="card-body">
-              <img src="https://feed.saeziae.net/1.png" /><br />請山前喝奶茶 (via AliPay
-              and WeChat)
+              <div id="qrcode"></div>
+              請山前喝奶茶 (via AliPay and WeChat)
               <hr />
               <div id="crypto">
                 <style>
@@ -187,7 +187,9 @@
                       border-color: #3c3c3d;
                       color: #fffc;
                     "
-                    >0x<b>8881</b>17715a884a7F84B88CBBBF7998745A5F<b>F96D</b></span
+                    >0x<b>8881</b>17715a884a7F84B88CBBBF7998745A5F<b
+                      >F96D</b
+                    ></span
                   >
                 </div>
                 <div>
@@ -200,7 +202,9 @@
                       border-color: #0ac18e;
                       color: #fffc;
                     "
-                    ><b>qrde</b>9e0awf5uwe93g0e4r0gncjvkjd8v9vzp3v<b>w503</b></span
+                    ><b>qrde</b>9e0awf5uwe93g0e4r0gncjvkjd8v9vzp3v<b
+                      >w503</b
+                    ></span
                   >
                 </div>
                 <div>
@@ -226,7 +230,10 @@
                       border-color: #ff6600;
                       color: #fffc;
                     "
-                    ><b>47qE</b>LcVWej3QYFHYZ9JX59QHgmz1eg5ZYGmyZ6wwZs2mYt71xXjAkzrPWvZ922g9jZRF9pEbbbV9QE7mmGArJu187Ys<b>Xrrt</b></span
+                    ><b>47qE</b
+                    >LcVWej3QYFHYZ9JX59QHgmz1eg5ZYGmyZ6wwZs2mYt71xXjAkzrPWvZ922g9jZRF9pEbbbV9QE7mmGArJu187Ys<b
+                      >Xrrt</b
+                    ></span
                   >
                 </div>
               </div>
@@ -268,6 +275,8 @@
       </div>
     </footer>
     <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="assets/qrcode.min.js"></script>
+    <script src="assets/codegen.js"></script>
   </body>
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();

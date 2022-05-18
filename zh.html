@@ -159,7 +159,8 @@
           <div class="card">
             <div class="card-header">请山前喝奶茶</div>
             <div class="card-body">
-              <img src="https://feed.saeziae.net/1.png" /><br />支付宝 微信
+              <div id="qrcode"></div>
+              支付宝 微信
               <hr />
               <div id="crypto">
                 <style>
@@ -276,6 +277,8 @@
       </div>
     </footer>
     <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="assets/qrcode.min.js"></script>
+    <script src="assets/codegen.js"></script>
   </body>
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
