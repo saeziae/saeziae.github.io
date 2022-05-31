@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      video {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <video
+      src="https://gitlab.com/saeziae/never-gonna-give-you-up/-/raw/main/video.webm"
+      autoplay="autoplay"
+      muted="muted"
+      loop="loop"
+      playsinline="playsinline"
+      id="good"
+      onclick="fs()"
+    ></video>
+    <script>
+      function fs() {
+        var vid = document.getElementById("good");
+        vid.muted = false;
+        vid.volume = 1;
+        vid.play();
+        var elem = document.documentElement;
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) {
+          elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) {
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+  </body>
+</html>
